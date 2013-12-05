@@ -51,4 +51,5 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 A copy of the license is available in the repository's license.txt file.
 
-
+[](Esri Tags: ArcGIS Online Web Application Templates) 
+[](Esri Language: JavaScript)
