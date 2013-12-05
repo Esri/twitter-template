@@ -3,7 +3,7 @@ twitter-template
 
 **Chrome-Twitter** is a configurable application template that provides a simple interface with a brushed chrome color scheme for displaying geolocated tweets. The template can be configured using the following options:
 
-[View it live](http://jsapi.maps.arcgis.com/apps/OnePane/azuretwitter/index.html?webmap=1df512c380994cc5a3dad2e2d428eea3)
+[View it live](http://www.arcgis.com/apps/OnePane/azuretwitter/index.html?webmap=1df512c380994cc5a3dad2e2d428eea3)
 
 
 - **Map:**  Choose the web map used in your application.
