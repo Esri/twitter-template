@@ -5,7 +5,7 @@ twitter-template
 
 ![Screen Shot] (https://dl.dropboxusercontent.com/u/24627279/screenshots/chrome_twitter_th.jpg)
 
-[View it live](http://www.arcgis.com/apps/OnePane/azuretwitter/index.html?webmap=1df512c380994cc5a3dad2e2d428eea3)
+[View it live](http://www.arcgis.com/apps/OnePane/azuretwitter/index.html?webmap=f5b13dbed07c46cdb783cf361833aa6b)
 
 #Features
 - **Map:**  Choose the web map used in your application.
