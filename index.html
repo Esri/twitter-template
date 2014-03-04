@@ -4,8 +4,8 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>
   </title>
-  <link rel="stylesheet" type="text/css" href="//js.arcgis.com/3.8/js/dojo/dijit/themes/claro/claro.css">
-  <link rel="stylesheet" type="text/css" href="//js.arcgis.com/3.8/js/esri/css/esri.css" />
+  <link rel="stylesheet" type="text/css" href="//js.arcgis.com/3.9/js/dojo/dijit/themes/claro/claro.css">
+  <link rel="stylesheet" type="text/css" href="//js.arcgis.com/3.9/js/esri/css/esri.css" />
   <link rel="stylesheet" type="text/css" href="css/layout.css">
 
   <script type="text/javascript">
@@ -29,7 +29,7 @@
       ]
     };
   </script>
-  <script type="text/javascript" src="//js.arcgis.com/3.8/">
+  <script type="text/javascript" src="//js.arcgis.com/3.9/">
   </script>
   <script src="javascript/social/twitter.js"></script>
   <script type="text/javascript" src="javascript/layout.js">
@@ -40,6 +40,7 @@
     dojo.require("esri.layout");
     dojo.require("esri.arcgis.utils");
     dojo.require("utilities.app");
+    dojo.require("dojo.on");
     dojo.require("templateConfig.commonConfig");
 
 
@@ -59,7 +60,7 @@
         subtitle:"",
         description:"",
         search:"",
-        sharingurl:"http://www.arcgis.com",
+        sharingurl:document.location.protocol + "//www.arcgis.com",
         proxyurl: "",
         owner:"",
         twitterSignInUrl: location.protocol + "//utility.arcgis.com/tproxy/signin",
@@ -71,10 +72,12 @@
         helperServices:commonConfig.helperServices  
 
       };
-      var app = new utilities.App(defaults);
-      app.init().then(function(options){
-        initMap(options);
-      });
+        var supportsLocalization = true;
+        var app = new utilities.App(defaults, supportsLocalization);
+        dojo.on(app, "ready", function(config){
+          console.log(config);
+          initMap(config);
+        });
     }
 
     dojo.addOnLoad(init);

@@ -45,17 +45,18 @@ dojo.require("social.twitter");
       }
    });
 
+  var itemInfo = configOptions.itemInfo || configOptions.webmap;
+  createApp(itemInfo);
 
-   createApp();
  }
 
- function createApp() {
+ function createApp(itemInfo) {
    if(configOptions.bingMapsKey){
     configOptions.bingmapskey = configOptions.bingMapsKey;
    }
 
    //Display the webmap from arcgis.com 
-   var mapDeferred = esri.arcgis.utils.createMap(configOptions.webmap, "map", {
+   var mapDeferred = esri.arcgis.utils.createMap(itemInfo, "map", {
      mapOptions: {
        sliderStyle:'small',
        nav: false,
@@ -87,9 +88,15 @@ dojo.require("social.twitter");
                     }
                 }, "credentialsPanel");
 
+                //search if a keyword was specified 
+               if (configOptions.search !== "") {
+                  var search = dojo.byId("twittersearch").value = configOptions.search;
+                  searchTwitter(search);
+               }
+
 
             } else {
-
+   
                 //create sign-in link
                 dojo.create("a", {
                     innerHTML: configOptions.i18n.tools.tweets.signIn,
@@ -166,7 +173,6 @@ dojo.require("social.twitter");
      //if a search term was included in the url but no extent - display tweets
      if (configOptions.search !== "" && !configOptions.extent) {
         var search = dojo.byId("twittersearch").value = configOptions.search;
-        searchTwitter(search);
      }
 
 
