@@ -1,7 +1,7 @@
-twitter-template
+Twitter Template
 ================
 
-**Chrome-Twitter** is a configurable application template that provides a simple interface with a brushed chrome color scheme for displaying geolocated tweets. The template can be configured using the following options:
+**Twitter Template** is a configurable application template that provides a simple interface with a brushed chrome color scheme for displaying geolocated tweets. The template can be configured using the following options:
 
 ![Screen Shot] (https://dl.dropboxusercontent.com/u/24627279/screenshots/chrome_twitter_th.jpg)
 
