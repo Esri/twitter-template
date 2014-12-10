@@ -2,21 +2,21 @@
    ({
   viewer: {
     main: {
-      scaleBarUnits: "metric" //"english (for miles) or "metric" (for km) - don't translate.
+      scaleBarUnits: "english" //"english (for miles) or "metric" (for km) - don't translate.
     },
    sidePanel: {
-   	label: "תיאור"
+   	label: "Mô tả"
     },
     errors: {
-      createMap: "לא ניתן ליצור מפה",
-      general: "שגיאה"
+      createMap: "Không thể tạo bản đồ",
+      general: "Lỗi"
     }
   },
   tools: {
     tweets: {
-    "screenName": "שם מסך",
-    "signIn": "התחבר",
-    "switchAccount": "החלף חשבון",
+    "screenName": "Tên màn hình",
+    "signIn": "Đăng nhập",
+    "switchAccount": "Chuyển đổi tài khoản",
     // doc about date and time patterns: http://dojotoolkit.org/reference-guide/dojo/date/locale/format.html
     // yyyy: full year, e.g. 2011
     // MMMM: full month name, e.g. December
@@ -28,34 +28,34 @@
     // SSS: milliseconds, e.g. 006 or 123 (just "S" would be 6 or 123)
     datePattern: "d MMM yy",
     timePattern: "h:mma",
-    reply: "מענה",
-    retweet:"ציוץ חוזר",
-    favorite:"מועדף",
-    label: "ציוצים",
-    title: "ציוצים",
-    error: "לא נמצאו תוצאות, נסה חיפוש נוסף באמצעות ביטוי או מיקום אחר",
+    reply: "Trả lời",
+    retweet:"Đăng lại",
+    favorite:"Yêu thích",
+    label: "Bài đăng",
+    title: "Bài đăng",
+    error: "Không tìm thấy kết quả nào, hãy thử một thuật ngữ tìm kiếm hoặc vị trí khác",
 		search: {
-			label: "חפש",
-			title: "חפש בטוויטר",
-			placeholder: 'מילות מפתח לחיפוש'
+			label: "Tìm kiếm",
+			title: "Tìm kiếm trên Twitter",
+			placeholder: 'Từ khóa tìm kiếm'
 		},
 		clear: {
-			label: "נקה",
-			title: "נקה מפה"
+			label: "Xóa",
+			title: "Xóa bản đồ"
 		},
 		share: {
-			label: "שתף מפה:",
+			label: "Chia sẻ Bản đồ:",
 			email:{
 				title: "Email",
 				label: "Email"
 			},
 			twitter: {
-				title: "טוויטר",
-				label: "טוויטר"
+				title: "Twitter",
+				label: "Twitter"
 			},
 			facebook: {
-				title: "פייסבוק",
-				label: "פייסבוק"
+				title: "Facebook",
+				label: "Facebook"
 			}
 		}
 	 }
