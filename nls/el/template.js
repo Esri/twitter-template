@@ -2,22 +2,22 @@
    ({
   viewer: {
     main: {
-      ownerText: "Harita kaynağı: ",
+      ownerText: "Χάρτης από: ",
       scaleBarUnits: "english" //"english (for miles) or "metric" (for km) - don't translate.
     },
    sidePanel: {
-   	label: "Açıklama"
+   	label: "Περιγραφή"
     },
     errors: {
-      createMap: "Harita oluşturulamıyor",
-      general: "Hata"
+      createMap: "Δεν είναι δυνατή η δημιουργία χάρτη",
+      general: "Σφάλμα"
     }
   },
   tools: {
     tweets: {
-    "screenName": "Ekran adı",
-    "signIn": "Hesabınıza",
-    "switchAccount": "Hesap değiştir",
+    "screenName": "Ψευδώνυμο",
+    "signIn": "Είσοδος",
+    "switchAccount": "Αλλαγή λογαριασμού",
     // doc about date and time patterns: http://dojotoolkit.org/reference-guide/dojo/date/locale/format.html
     // yyyy: full year, e.g. 2011
     // MMMM: full month name, e.g. December
@@ -28,27 +28,27 @@
     // ss: seconds, e.g. 08 or 37 (just "s" would be 8 or 37)
     // SSS: milliseconds, e.g. 006 or 123 (just "S" would be 6 or 123)
     datePattern: "d MMM yy",
-    timePattern: "h:mma",
-    reply: "Cevap",
-    retweet:"Yeniden Tweetle",
-    favorite:"Favori",
-    label: "Tweetler",
-    title: "Tweetler",
-    error: "Hiçbir sonuç bulunamadı; başka bir arama terimini veya konumunu deneyin",
+    timePattern: "hh:mm",
+    reply: "Απάντηση",
+    retweet:"Retweet",
+    favorite:"Αγαπημένο",
+    label: "Tweet",
+    title: "Tweet",
+    error: "Δεν βρέθηκαν αποτελέσματα, δοκιμάστε άλλο όρο αναζήτησης ή άλλη τοποθεσία",
 		search: {
-			label: "Ara",
-			title: "Twitter\'da Ara",
-			placeholder: 'Aranacak anahtar kelimeler'
+			label: "Αναζήτηση",
+			title: "Αναζήτηση στο Twitter",
+			placeholder: 'Λέξεις-κλειδιά για αναζήτηση'
 		},
 		clear: {
-			label: "Temizle",
-			title: "Haritayı Temizle"
+			label: "Απαλοιφή",
+			title: "Απαλοιφή χάρτη"
 		},
 		share: {
-			label: "Haritayı Paylaş:",
+			label: "Κοινοποίηση χάρτη:",
 			email:{
-				title: "E-posta",
-				label: "E-posta"
+				title: "Email",
+				label: "Email"
 			},
 			twitter: {
 				title: "Twitter",

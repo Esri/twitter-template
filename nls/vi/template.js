@@ -2,6 +2,7 @@
    ({
   viewer: {
     main: {
+      ownerText: "Bản đồ từ: ",
       scaleBarUnits: "english" //"english (for miles) or "metric" (for km) - don't translate.
     },
    sidePanel: {

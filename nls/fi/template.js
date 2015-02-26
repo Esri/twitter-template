@@ -2,6 +2,7 @@
    ({
   viewer: {
     main: {
+      ownerText: "Kartta kohteesta: ",
       scaleBarUnits: "english" //"english (for miles) or "metric" (for km) - don't translate.
     },
    sidePanel: {

@@ -2,6 +2,7 @@
    ({
   viewer: {
     main: {
+      ownerText: "خريطة من: ",
       scaleBarUnits: "metric" //"english (for miles) or "metric" (for km) - don't translate.
     },
    sidePanel: {

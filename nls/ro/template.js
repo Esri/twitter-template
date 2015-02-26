@@ -2,13 +2,14 @@
    ({
   viewer: {
     main: {
+      ownerText: "O hartă de la: ",
       scaleBarUnits: "metric" //"english (for miles) or "metric" (for km) - don't translate.
     },
    sidePanel: {
    	label: "Descriere"
     },
     errors: {
-      createMap: "Imposibil de creat harta",
+      createMap: "Nu se poate crea harta",
       general: "Eroare"
     }
   },
@@ -46,8 +47,8 @@
 		share: {
 			label: "Partajare hartă:",
 			email:{
-				title: "Email",
-				label: "Email"
+				title: "E-mail",
+				label: "E-mail"
 			},
 			twitter: {
 				title: "Twitter",

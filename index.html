@@ -4,8 +4,8 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>
   </title>
-  <link rel="stylesheet" type="text/css" href="//js.arcgis.com/3.12/esri/css/esri.css">
-  <link rel="stylesheet" type="text/css" href="//js.arcgis.com/3.12/dijit/themes/claro/claro.css">
+  <link rel="stylesheet" type="text/css" href="//js.arcgis.com/3.13/esri/css/esri.css">
+  <link rel="stylesheet" type="text/css" href="//js.arcgis.com/3.13/dijit/themes/claro/claro.css">
   <link rel="stylesheet" type="text/css" href="css/layout.css">
 
   <script type="text/javascript">
@@ -22,14 +22,14 @@
         },
         {
          name: "templateConfig",
-         location: path_location 
+         location: path_location
         },{
           name:"social",
           location:path_location + "/javascript/social"}
       ]
     };
   </script>
-  <script type="text/javascript" src="//js.arcgis.com/3.12/">
+  <script type="text/javascript" src="//js.arcgis.com/3.13/">
   </script>
   <script src="javascript/social/twitter.js"></script>
   <script type="text/javascript" src="javascript/layout.js">
@@ -60,7 +60,7 @@
         subtitle:"",
         description:"",
         search:"",
-        sharingurl:"http://www.arcgis.com",
+        sharingurl: "http://www.arcgis.com",
         proxyurl: "",
         owner:"",
         twitterSignInUrl: location.protocol + "//utility.arcgis.com/tproxy/signin",
@@ -140,7 +140,7 @@
       </div>
      <!-- Footer Section-->
     <div id="footer" dojotype="dijit.layout.ContentPane" region="bottom">
-      A map from:
+      <span id="ownerText"></span>
       <span id="owner">
       </span>
     </div>

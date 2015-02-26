@@ -2,6 +2,7 @@
    ({
   viewer: {
     main: {
+      ownerText: "マップの参照元: ",
       scaleBarUnits: "metric" //"english (for miles) or "metric" (for km) - don't translate.
     },
    sidePanel: {
