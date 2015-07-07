@@ -4,8 +4,13 @@
    },
    "configurationSettings":[
       {
-         "category":"<b>General Settings</b>",
+         "category":"<b>App Settings</b>",
          "fields":[
+            {
+               "type": "appproxies"
+            },{
+               "type": "webmap"
+            },
             {
                "placeHolder":"Defaults to map name",
                "label":"Title Text:",
