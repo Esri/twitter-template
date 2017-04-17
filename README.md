@@ -3,7 +3,6 @@ Twitter Template
 
 **Twitter Template** is a configurable application template that provides a simple interface with a brushed chrome color scheme for displaying geolocated tweets. This template uses the Twitter search api to find and display geocoded tweets on the map. The Twitter API requires OAuth for authentication read more about Twitter authentication <a href="https://dev.twitter.com/docs/auth">here</a>. If you are setting up this template on your web server you will need to setup a proxy that makes requests and recieves results from Twitter without the client side app handling the oAuth authentication. There's a Twitter oAuth Search Proxy application written using PHP available on github that you can use. See the <a href="https://github.com/driskull/twitter-oauth-proxy-php">Twitter oAuth Search Proxy php</a> for more details. 
 
-![Screen Shot] (https://dl.dropboxusercontent.com/u/24627279/screenshots/chrome_twitter_th.jpg)
 
 [View it live](http://www.arcgis.com/apps/OnePane/azuretwitter/index.html?webmap=f5b13dbed07c46cdb783cf361833aa6b)
 
@@ -66,6 +65,3 @@ http://www.apache.org/licenses/LICENSE-2.0
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
 A copy of the license is available in the repository's license.txt file.
-
-[](Esri Tags: ArcGIS Online Web Application Templates) 
-[](Esri Language: JavaScript)
