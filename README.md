@@ -1,4 +1,6 @@
-Twitter Template
+
+ArcGIS Configurable Apps will be retired in 2025. The ArcGIS Configurable Apps source code repro is deprecated and will not receive further updates. In addition, this repository will be removed in October 2025, along with the October 2025 ArcGIS Online update.
+Deprecated: Twitter Template
 ================
 
 **Twitter Template** is a configurable application template that provides a simple interface with a brushed chrome color scheme for displaying geolocated tweets. This template uses the Twitter search api to find and display geocoded tweets on the map. The Twitter API requires OAuth for authentication read more about Twitter authentication <a href="https://dev.twitter.com/docs/auth">here</a>. If you are setting up this template on your web server you will need to setup a proxy that makes requests and recieves results from Twitter without the client side app handling the oAuth authentication. There's a Twitter oAuth Search Proxy application written using PHP available on github that you can use. See the <a href="https://github.com/driskull/twitter-oauth-proxy-php">Twitter oAuth Search Proxy php</a> for more details. 
